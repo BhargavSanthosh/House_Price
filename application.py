@@ -45,6 +45,6 @@ def result():
     return render_template('index.html',prediction=result,Status=Status,Location=Location,Facing=Facing,Type=Type)
 
 if __name__=="__main__":
-    application.run(use_reloader=True,debug=True)#to reload the server automatically itself and to sve the changes in the applicationand index pages so they are helpful to run server only one time
+    application.run()#to reload the server automatically itself and to sve the changes in the applicationand index pages so they are helpful to run server only one time
 
 
